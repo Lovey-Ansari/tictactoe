@@ -34,7 +34,7 @@ const checkWin = () => {
       gameover = true;
       document
         .querySelector(".imgCont")
-        .getElementsByTagName("img")[0].style.width = "100px";
+        .getElementsByTagName("img")[0].style.width = "150px";
     }
   }
 };
